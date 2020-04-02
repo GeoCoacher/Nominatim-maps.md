@@ -1,7 +1,7 @@
 <h2>Căutare MAPS.MD</h2>
 
 <p>Această pagină este una tehnică pentru calibrarea moturlui de căutare. <br/>
-Vă îndemnăm să accesați pagina principală<a href="http://maps.md">maps.md</a>.</p>
+Vă îndemnăm să accesați pagina principală <a href="http://maps.md">maps.md</a>.</p>
 
 
 <!-- <h2>Welcome to Nominatim</h2>
