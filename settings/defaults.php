@@ -75,15 +75,14 @@ if (isset($_GET['debug']) && $_GET['debug']) @define('CONST_Debug', true);
 
 // Base URL of replication service
 // @define('CONST_Replication_Url', 'https://planet.openstreetmap.org/replication/minute');
-@define('CONST_Replication_Url', '')
 
-// Maximum size in MB of data to download per batch
-@define('CONST_Replication_Max_Diff_size', '30');
-// How long until the service publishes the next diff
-// (relative to the age of data in the diff).
-@define('CONST_Replication_Update_Interval', '75');
-// How long to sleep when no update could be found
-@define('CONST_Replication_Recheck_Interval', '60');
+// // Maximum size in MB of data to download per batch
+// @define('CONST_Replication_Max_Diff_size', '30');
+// // How long until the service publishes the next diff
+// // (relative to the age of data in the diff).
+// @define('CONST_Replication_Update_Interval', '75');
+// // How long to sleep when no update could be found
+// @define('CONST_Replication_Recheck_Interval', '60');
 
 // Website settings
 @define('CONST_NoAccessControl', true);
