@@ -74,7 +74,8 @@ if (isset($_GET['debug']) && $_GET['debug']) @define('CONST_Debug', true);
 //// Replication settings
 
 // Base URL of replication service
-@define('CONST_Replication_Url', 'https://planet.openstreetmap.org/replication/minute');
+// @define('CONST_Replication_Url', 'https://planet.openstreetmap.org/replication/minute');
+@define('CONST_Replication_Url', '')
 
 // Maximum size in MB of data to download per batch
 @define('CONST_Replication_Max_Diff_size', '30');
@@ -87,17 +88,18 @@ if (isset($_GET['debug']) && $_GET['debug']) @define('CONST_Debug', true);
 // Website settings
 @define('CONST_NoAccessControl', true);
 
-@define('CONST_Website_BaseURL', 'http://'.php_uname('n').'/');
+@define('CONST_Website_BaseURL', 'http://coder.maps.md/');
 // Language to assume when none is supplied with the query.
 // When set to false, the local language (i.e. the name tag without suffix)
 // will be used.
 @define('CONST_Default_Language', false);
 // Appearance of the map in the debug interface.
-@define('CONST_Default_Lat', 20.0);
-@define('CONST_Default_Lon', 0.0);
-@define('CONST_Default_Zoom', 2);
-@define('CONST_Map_Tile_URL', 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
-@define('CONST_Map_Tile_Attribution', ''); // Set if tile source isn't osm.org
+@define('CONST_Default_Lat', 47.211);
+@define('CONST_Default_Lon', 27.801);
+@define('CONST_Default_Zoom', 6);
+@define('CONST_Map_Tile_URL', 'http://138.68.83.207:8081/{z}/{x}/{y}.png');
+@define('CONST_Map_Tile_Attribution', 'Map Data (c) Lightcyphers srl - maps.md'); 
+
 
 @define('CONST_Search_AreaPolygons', true);
 
