@@ -15,7 +15,7 @@
                 <?php //echo $sDataDate; ?>
             <?php //} ?>
         </div>
-        <div class="col-xs-4 text-right">
+        <!-- <div class="col-xs-4 text-right">
             <div class="btn-group">
                 <button class="dropdown-toggle btn btn-sm btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     About &amp; Help <span class="caret"></span>
@@ -29,11 +29,11 @@
                     <li><a href="#" class="" data-toggle="modal" data-target="#report-modal">Report problem with results</a></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
 </header>
 
-<div class="modal fade" id="report-modal">
+<!-- <div class="modal fade" id="report-modal">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -41,11 +41,11 @@
                 <h4 class="modal-title">Report a problem</h4>
             </div>
             <div class="modal-body">
-                <?php include(CONST_BasePath.'/lib/template/includes/report-errors.php'); ?>
+                <?php //include(CONST_BasePath.'/lib/template/includes/report-errors.php'); ?>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
             </div>
         </div>
     </div>
-</div>
+</div> -->
