@@ -1,4 +1,10 @@
-<h2>Welcome to Nominatim</h2>
+<h2>Căutare MAPS.MD</h2>
+
+<p>Această pagină este una tehnică pentru calibrarea moturlui de căutare. <br/>
+Vă îndemnăm să accesați pagina principală maps.md<a href="http://maps.md">pagina principală maps.md</a>.</p>
+
+
+<!-- <h2>Welcome to Nominatim</h2>
 
 <p>Nominatim is a search engine for <a href="https://www.openstreetmap.org">OpenStreetMap</a>
 data. This is the debugging interface. You may search for a name or address (forward search) or
@@ -6,4 +12,4 @@ look up data by its geographic coordinate (reverse search). Each result comes wi
 link to a details page where you can inspect what data about the object is saved in 
 the database and investigate how the address of the object has been computed.</p>
 
-For more information visit the <a href="https://nominatim.org">Nominatim home page</a>.
+For more information visit the <a href="https://nominatim.org">Nominatim home page</a>. -->
