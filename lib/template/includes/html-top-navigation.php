@@ -9,11 +9,11 @@
             </div>
         </div>
         <div id="last-updated" class="col-xs-4 text-center">
-            <?php if (isset($sDataDate)){ ?>
+            <?php //if (isset($sDataDate)){ ?>
                 Data last updated:
                 <br>
-                <?php echo $sDataDate; ?>
-            <?php } ?>
+                <?php //echo $sDataDate; ?>
+            <?php //} ?>
         </div>
         <div class="col-xs-4 text-right">
             <div class="btn-group">
