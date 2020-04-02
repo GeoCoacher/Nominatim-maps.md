@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>OpenStreetMap Nominatim: Search</title>
+    <title>MAPS.md Search</title>
     <meta content="IE=edge" http-equiv="x-ua-compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

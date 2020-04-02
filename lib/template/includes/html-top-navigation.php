@@ -4,7 +4,7 @@
             <div class="brand">
                 <a href="<?php echo CONST_Website_BaseURL;?>">
                 <img alt="logo" src="images/osm_logo.120px.png" width="30" height="30"/>
-                <h1>Nominatim</h1>
+                <h1>MAPS.MD</h1>
                 </a>
             </div>
         </div>
