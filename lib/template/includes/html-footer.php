@@ -1,9 +1,9 @@
 <footer>
     <p class="disclaimer">
-        Addresses and postcodes are approximate
+        Informațiile despre adrese pot conține erori așa cum ele sunt în proces continuu de îmbunătățire.
     </p>
     <p class="copyright">
-        &copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors
+        &copy; Lightcyphers SRL under MAPS.MD project.
     </p>
 </footer>
 
