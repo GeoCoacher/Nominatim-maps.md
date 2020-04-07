@@ -21,7 +21,7 @@ function osmLink($aFeature, $sRefText = false)
 {
     $sOSMType = formatOSMType($aFeature['osm_type'], false);
     if ($sOSMType) {
-        return '<a href="//www.openstreetmap.org/'.$sOSMType.'/'.$aFeature['osm_id'].'">'.$sOSMType.' '.($sRefText?$sRefText:$aFeature['osm_id']).'</a>';
+        return '<a href="//api.maps.md:3000/'.$sOSMType.'/'.$aFeature['osm_id'].'">'.$sOSMType.' '.($sRefText?$sRefText:$aFeature['osm_id']).'</a>';
     }
     return '';
 }

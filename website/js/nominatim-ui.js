@@ -156,7 +156,7 @@ jQuery(document).ready(function(){
         ].join(',');
     }
     function map_link_to_osm(){
-        return "https://openstreetmap.org/#map=" + map.getZoom() + "/" + map.getCenter().lat + "/" + map.getCenter().lng;
+        return "http://api.maps.md:3000/#map=" + map.getZoom() + "/" + map.getCenter().lat + "/" + map.getCenter().lng;
     }
 
     function get_result_element(position){

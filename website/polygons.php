@@ -114,7 +114,7 @@ foreach ($aPolygons as $aRow) {
                 if (preg_match('/Self-intersection\\[([0-9.\\-]+) ([0-9.\\-]+)\\]/', $sVal, $aMatch)) {
                     $aRow['lat'] = $aMatch[2];
                     $aRow['lon'] = $aMatch[1];
-                    echo '<td><a href="https://www.openstreetmap.org/?lat='.$aMatch[2].'&lon='.$aMatch[1].'&zoom=18&layers=M&'.$sOSMType.'='.$aRow['id'].'">'.($sVal?$sVal:'&nbsp;').'</a></td>';
+                    echo '<td><a href="http://api.maps.md:3000/?lat='.$aMatch[2].'&lon='.$aMatch[1].'&zoom=18&layers=M&'.$sOSMType.'='.$aRow['id'].'">'.($sVal?$sVal:'&nbsp;').'</a></td>';
                 } else {
                     echo '<td>'.($sVal?$sVal:'&nbsp;').'</td>';
                 }
@@ -127,7 +127,7 @@ foreach ($aPolygons as $aRow) {
                 break;
         }
     }
-    echo '<td><a href="http://localhost:8111/import?url=https://www.openstreetmap.org/api/0.6/'.$sOSMType.'/'.$aRow['id'].'/full" target="josm">josm</a></td>';
+    echo '<td><a href="http://localhost:8111/import?url=http://api.maps.md:3000/api/0.6/'.$sOSMType.'/'.$aRow['id'].'/full" target="josm">josm</a></td>';
     echo '</tr>';
 }
 echo '</table>';

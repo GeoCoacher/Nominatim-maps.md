@@ -35,10 +35,10 @@
                 </div>
 
                 <div class="search-form">
-                    <h4>Search by openstreetmap.org URL</h4>
+                    <h4>Search by maps.md URL</h4>
 
                     <form id="form-by-osm-url" class="form-inline" action="details.php">
-                        <input type="edit" class="form-control input-sm" pattern=".*openstreetmap.*" placeholder="https://www.openstreetmap.org/relation/123" />
+                        <input type="edit" class="form-control input-sm" pattern=".*openstreetmap.*" placeholder="http://api.maps.md:3000/relation/123" />
                         <input type="hidden" name="osmtype" />
                         <input type="hidden" name="osmid" />
                         <input type="submit" class="btn btn-primary btn-sm" value="Show" />

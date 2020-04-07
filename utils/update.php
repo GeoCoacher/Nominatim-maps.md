@@ -194,7 +194,7 @@ $bUseOSMApi = isset($aResult['import-from-main-api']) && $aResult['import-from-m
 $sContentURL = '';
 if (isset($aResult['import-node']) && $aResult['import-node']) {
     if ($bUseOSMApi) {
-        $sContentURL = 'https://www.openstreetmap.org/api/0.6/node/'.$aResult['import-node'];
+        $sContentURL = 'http://api.maps.md:3000/api/0.6/node/'.$aResult['import-node'];
     } else {
         $sContentURL = 'https://overpass-api.de/api/interpreter?data=node('.$aResult['import-node'].');out%20meta;';
     }
@@ -202,7 +202,7 @@ if (isset($aResult['import-node']) && $aResult['import-node']) {
 
 if (isset($aResult['import-way']) && $aResult['import-way']) {
     if ($bUseOSMApi) {
-        $sContentURL = 'https://www.openstreetmap.org/api/0.6/way/'.$aResult['import-way'].'/full';
+        $sContentURL = 'http://api.maps.md:3000/api/0.6/way/'.$aResult['import-way'].'/full';
     } else {
         $sContentURL = 'https://overpass-api.de/api/interpreter?data=(way('.$aResult['import-way'].');node(w););out%20meta;';
     }
@@ -210,7 +210,7 @@ if (isset($aResult['import-way']) && $aResult['import-way']) {
 
 if (isset($aResult['import-relation']) && $aResult['import-relation']) {
     if ($bUseOSMApi) {
-        $sContentURLsModifyXMLstr = 'https://www.openstreetmap.org/api/0.6/relation/'.$aResult['import-relation'].'/full';
+        $sContentURLsModifyXMLstr = 'http://api.maps.md:3000/api/0.6/relation/'.$aResult['import-relation'].'/full';
     } else {
         $sContentURL = 'https://overpass-api.de/api/interpreter?data=((rel('.$aResult['import-relation'].');way(r);node(w));node(r));out%20meta;';
     }

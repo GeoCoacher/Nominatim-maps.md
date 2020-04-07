@@ -37,7 +37,7 @@ function getDatabaseDate(&$oDB)
     // Find the newest node in the DB
     $iLastOSMID = $oDB->getOne("select max(osm_id) from place where osm_type = 'N'");
     // Lookup the timestamp that node was created
-    $sLastNodeURL = 'https://www.openstreetmap.org/api/0.6/node/'.$iLastOSMID.'/1';
+    $sLastNodeURL = 'http://api.maps.md:3000/api/0.6/node/'.$iLastOSMID.'/1';
     $sLastNodeXML = file_get_contents($sLastNodeURL);
 
     if ($sLastNodeXML === false) {

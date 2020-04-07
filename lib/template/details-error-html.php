@@ -13,7 +13,7 @@
     {
         if (isset($sFeature['error_x']) && isset($sFeature['error_y']))
         {
-            $sBaseUrl = '//www.openstreetmap.org/';
+            $sBaseUrl = '//api.maps.md:3000/';
             $sOSMType = formatOSMType($aFeature['osm_type'], false);
             if ($sOSMType)
             {
@@ -39,7 +39,7 @@
         $sOSMType = formatOSMType($aFeature['osm_type'], false);
         if ($sOSMType)
         {
-            return 'http://localhost:8111/import?url=http://www.openstreetmap.org/api/0.6/'.$sOSMType.'/'.$aFeature['osm_id'].'/full';
+            return 'http://localhost:8111/import?url=http://api.maps.md:3000/api/0.6/'.$sOSMType.'/'.$aFeature['osm_id'].'/full';
             // Should be better to load by object id - but this doesn't seem to zoom correctly
             // return " <a href=\"http://localhost:8111/load_object?new_layer=true&objects=".strtolower($aFeature['osm_type']).$sOSMID."\" target=\"josm\">Remote Control (JOSM / Merkaartor)</a>";
         }
@@ -54,7 +54,7 @@
 
         if (isset($sLat))
         {
-            return "//www.openstreetmap.org/edit?editor=potlatch2&bbox=".($sLon-$fWidth).",".($sLat-$fWidth).",".($sLon+$fWidth).",".($sLat+$fWidth);
+            return "//api.maps.md:3000/edit?editor=potlatch2&bbox=".($sLon-$fWidth).",".($sLat-$fWidth).",".($sLon+$fWidth).",".($sLat+$fWidth);
         }
         return '';
     }
