@@ -63,7 +63,7 @@ if (empty($aPlace)) {
 
     javascript_renderData(array(
                            'type' => 'FeatureCollection',
-                           'licence' => 'Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright',
+                           'licence' => 'Data © Lightcyphers SRL under MAPS.MD project.',
                            'features' => array($aFilteredPlaces)
                           ));
 }

@@ -1,7 +1,7 @@
 <?php
 
 $aOutput = array();
-$aOutput['licence'] = 'Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright';
+$aOutput['licence'] = 'Data © Lightcyphers SRL under MAPS.MD project.';
 $aOutput['batch'] = array();
 
 foreach ($aBatchResults as $aSearchResults) {

@@ -4,7 +4,7 @@ $aFilteredPlaces = array();
 foreach ($aSearchResults as $iResNum => $aPointDetails) {
     $aPlace = array(
                'place_id'=>$aPointDetails['place_id'],
-               'licence'=>'Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright',
+               'licence'=>'Data © Lightcyphers SRL under MAPS.MD project.',
               );
     
     $sOSMType = formatOSMType($aPointDetails['osm_type']);

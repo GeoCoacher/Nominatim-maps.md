@@ -8,7 +8,7 @@ if (empty($aPlace)) {
     else $aFilteredPlaces['error'] = 'Unable to geocode';
 } else {
     if (isset($aPlace['place_id'])) $aFilteredPlaces['place_id'] = $aPlace['place_id'];
-    $aFilteredPlaces['licence'] = 'Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright';
+    $aFilteredPlaces['licence'] = 'Data © Lightcyphers SRL under MAPS.MD project.';
     $sOSMType = formatOSMType($aPlace['osm_type']);
     if ($sOSMType) {
         $aFilteredPlaces['osm_type'] = $sOSMType;
